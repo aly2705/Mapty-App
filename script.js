@@ -585,8 +585,10 @@ class App {
       deleteType === 'all workouts'
         ? (this.#deleteAll = true)
         : (this.#deleteAll = false);
-    } else
+    } else {
+      this.#deleteAll = false;
       modalMessage.textContent = `Problem getting location data from API. Would you still like to render your workout?`;
+    }
     btnCloseModal.textContent = 'Close';
     btnConfirmAction.classList.remove('not-visible');
   }
