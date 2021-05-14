@@ -5,4 +5,4 @@ This is the course version with some bonus features implemented by myself, such 
 sort workouts by distance. 
 The application is a JavaScript practice project with an OOP architecture, using new features such as ES6 Classes, private fields, async/await and much more.
 Check the application at: 
-- https://aly2705.github.io/Mapty-App/
+- https://aly2705-mapty.netlify.app/
